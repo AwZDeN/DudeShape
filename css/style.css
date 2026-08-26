@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0vh .9vh;
 }
 a {
     text-decoration: none;
@@ -20,7 +21,6 @@ a {
     width: 100%;
     margin: 0 auto;
     max-width: 1200px;
-    padding: 0vh .9vh
 }
 /* animation */
 .animation-on-scroll--two  {
@@ -458,7 +458,7 @@ img {
     background-color: #154444;
     height: 492px;
     width: 492px;
-    left: -75px;
+    left: -115px;
     border-radius: 50%;
     z-index: -1;
 }
