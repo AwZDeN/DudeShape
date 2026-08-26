@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0vh 1vh
 }
 a {
     text-decoration: none;
@@ -21,6 +20,7 @@ a {
     width: 100%;
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0vh 1vh
 }
 /* animation */
 .animation-on-scroll--two  {
