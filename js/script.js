@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             name: 'Kitchen',
             dataImage: 'img/Kitchen.png' ,
-            image: 'img/Kitchen.png'
+            image: 'img/kitchen.png'
         },
         {
             name: 'Dining Room',
