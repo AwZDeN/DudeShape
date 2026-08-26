@@ -10,7 +10,6 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0vh .9vh;
 }
 a {
     text-decoration: none;
@@ -46,6 +45,7 @@ a {
 /* header */
 .header {
     margin: 0 auto;
+    padding: 0vh .9vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header-items {
@@ -103,6 +103,7 @@ a {
 /* hero */
 .hero-section {
     margin-top: 27px;
+    padding: 0vh .9vh;
 }
 .hero-inner {
     background-color: #244D4D;
@@ -152,6 +153,7 @@ img {
 /* trust-section */
 .trust-section {
     margin-top: 10vh;
+    padding: 0vh .9vh;
 }
 .trust-title {
     font-size: 2rem;
@@ -224,6 +226,7 @@ img {
 /* popular-section */
 .popular-section {
     margin-top: 10vh;
+    padding: 0vh .9vh;
 }
 .popular-title {
     font-size: 2rem;
@@ -332,6 +335,7 @@ img {
 /* furniture-section */
 .furniture-section {
     margin-top: 10vh;
+    padding: 0vh .9vh;
 }
 .furniture-title {
     display: flex;
@@ -447,6 +451,7 @@ img {
 }
 /* feedback-ssection */
 .feedback-section {
+    padding: 0vh .9vh;
     margin-top: 10vh;
 }
 .feedback-image__container {
