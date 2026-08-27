@@ -45,7 +45,10 @@ a {
 /* header */
 .header {
     margin: 0 auto;
-    padding: 0vh .9vh;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255,255, .8);
+    padding: 22px 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header-items {
@@ -56,9 +59,7 @@ a {
     align-items: center;
     max-width: 1200px;
 }
-.header-inner {
-    margin-top: 22px;
-}
+
 .nav {
     display: flex;
     gap: 2rem;
