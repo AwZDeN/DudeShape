@@ -205,6 +205,15 @@ document.addEventListener('DOMContentLoaded', function() {
             furnirutePhoto.src = newSrc
         } )
     })
-
+    
+    const burgerBtn = document.querySelector('.burger-button')
+    const burgerMenu = document.querySelector('.burger-menu')
+    const burgerLink = document.querySelector('.burger-item')
+    burgerBtn.addEventListener('click', () => {
+        burgerMenu.classList.toggle('show')
+    })
+    burgerLink.addEventListener('click', () => {
+        burgerMenu.classList.remove('show')
+    })
     
 });
