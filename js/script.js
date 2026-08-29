@@ -18,47 +18,47 @@ document.addEventListener('DOMContentLoaded', function() {
         { 
             name: 'White Swan Chair', 
             price: '$40', 
-            img: 'img/7.png' 
+            img: 'img/7-converted.webp' 
         },
         { 
             name: 'White Swan Chair', 
             price: '$40', 
-            img: 'img/8.png' 
+            img: 'img/8-converted.webp' 
         },
         { 
             name: 'White Swan Chair', 
             price: '$40', 
-            img: 'img/9.png' 
+            img: 'img/9-converted.webp' 
         },
         { 
             name: 'White Swan Chair', 
             price: '$40', 
-            img: 'img/9.png' 
+            img: 'img/9-converted.webp' 
         },
         { 
             name: 'White Swan Chair', 
             price: '$40', 
-            img: 'img/7.png' 
+            img: 'img/7-converted.webp' 
         },
         { 
             name: 'White Swan Chair', 
             price: '$40', 
-            img: 'img/8.png' 
+            img: 'img/8-converted.webp' 
         },
         { 
             name: 'White Swan Chair', 
             price: '$40', 
-            img: 'img/8.png' 
+            img: 'img/8-converted.webp' 
         },
         { 
             name: 'White Swan Chair', 
             price: '$40', 
-            img: 'img/8.png' 
+            img: 'img/8-converted.webp' 
         },
         { 
             name: 'White Swan Chair', 
             price: '$40', 
-            img: 'img/8.png' 
+            img: 'img/8-converted.webp' 
         },
 
     ];
@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="production-description">                               
                         <div class="production-name">${el.name}</div>                              
                         <div class="production-buttons">
-                            <button class="production-like"><img src="img/14.png" loading="lazy" alt="Иконка лайка"></button>
-                            <button class="production-link"><img src="img/13.png" loading="lazy" alt="Иконка поделиться"></button>
+                            <button class="production-like"><img src="img/14-converted.webp" loading="lazy" alt="Иконка лайка"></button>
+                            <button class="production-link"><img src="img/13-converted.webp" loading="lazy" alt="Иконка поделиться"></button>
                         </div>
                     </div>
                     <div class="production-buy">
@@ -133,33 +133,33 @@ document.addEventListener('DOMContentLoaded', function() {
     const category = [
         {
             name: 'Living Room',
-            dataImage: 'img/livingRoom.png' ,
-            image: 'img/livingRoom.png'
+            dataImage: 'img/livingRoom-converted.webp' ,
+            image: 'img/livingRoom-converted.webp'
         },
         {
             name: 'Kitchen',
-            dataImage: 'img/Kitchen.png' ,
-            image: 'img/kitchen.png'
+            dataImage: 'img/Kitchen-converted.webp' ,
+            image: 'img/Kitchen-converted.webp'
         },
         {
             name: 'Dining Room',
-            dataImage: 'img/diningRoom.png' ,
-            image: 'img/diningRoom.png'
+            dataImage: 'img/diningRoom-converted.webp' ,
+            image: 'img/diningRoom-converted.webp'
         },
         {
             name: 'Office Room',
-            dataImage: 'img/office.png' ,
-            image: 'img/office.png'
+            dataImage: 'img/office-converted.webp' ,
+            image: 'img/office-converted.webp'
         },
         {
             name: 'Bed Room',
-            dataImage: 'img/bedRoom.png' ,
-            image: 'img/bedRoom.png'
+            dataImage: 'img/bedRoom-converted.webp' ,
+            image: 'img/bedRoom-converted.webp'
         },
         {
             name: 'Hallway',
-            dataImage: 'img/hallway.png' ,
-            image: 'img/hallway.png'
+            dataImage: 'img/hallway-converted.webp' ,
+            image: 'img/hallway-converted.webp'
         },
     ]
     const categoryContainer = document.querySelector('.furniture-category__inner')
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
     category.forEach(el => {
         categoryContainer.insertAdjacentHTML('beforeend',`
             <div class="category-item animation-on-scroll--two" data-image='${el.dataImage}'>
-                <img loading="lazy" src="${el.image}" alt="Иконка зала" class="category-image">
+                <img loading="lazy" src="${el.image}" alt="Иконка комнаты" class="category-image">
                 <div class="category-title">${el.name}</div>
             </div>
         `)
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
             furnirutePhoto.src = newSrc
         } )
     })
-    
+
     const burgerBtn = document.querySelector('.burger-button')
     const burgerMenu = document.querySelector('.burger-menu')
     const burgerLink = document.querySelector('.burger-item')
@@ -215,5 +215,4 @@ document.addEventListener('DOMContentLoaded', function() {
     burgerLink.addEventListener('click', () => {
         burgerMenu.classList.remove('show')
     })
-    
 });
